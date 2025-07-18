@@ -8,11 +8,11 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DiyetPlus - Sağlıklı Yaşam Rehberi",
+  title: "Renkli Diyetisyen - Sağlıklı Yaşam Rehberi",
   description:
     "BMI hesaplayıcı, kalori hesaplayıcı ve sağlıklı yaşam rehberi. Kilo verme ve sağlıklı beslenme için profesyonel araçlar.",
   keywords: "BMI hesaplayıcı, kalori hesaplayıcı, diyet, sağlıklı beslenme, kilo verme",
-    generator: 'v0.dev'
+  generator: 'renklidiyetisyen.dev'
 }
 
 export default function RootLayout({

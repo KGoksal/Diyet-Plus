@@ -8,7 +8,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Heart className="w-8 h-8 text-emerald-500" />
-              <span className="text-2xl font-bold">DiyetPlus</span>
+              <span className="text-2xl font-bold">Renkli Diyetisyen</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Sağlıklı yaşam için güvenilir rehber. Profesyonel araçlar ve uzman tavsiyeleri ile hedeflerinize ulaşın.
@@ -56,7 +56,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-emerald-500" />
-                <span className="text-gray-400">info@diyetplus.com</span>
+                <span className="text-gray-400">info@renklidiyetisyen.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-emerald-500" />
@@ -72,7 +72,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 DiyetPlus. Tüm hakları saklıdır. |
+            © 2024 RenkliDiyetisyen. Tüm hakları saklıdır. |
             <span className="text-emerald-400"> Sağlıklı yaşam için tasarlandı</span>
           </p>
         </div>

@@ -7,6 +7,19 @@ import { Menu, X, Heart } from "lucide-react"
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+  // Array of Tailwind color classes for the heart
+  const heartColors = [
+    "text-emerald-600",
+    "text-red-500",
+    "text-pink-500",
+    "text-yellow-500",
+    "text-blue-500",
+    "text-purple-500",
+    "text-orange-500"
+  ];
+  // Pick a random color on each render (refresh)
+  const heartColor = heartColors[Math.floor(Math.random() * heartColors.length)];
+
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" })
     setIsMenuOpen(false)
@@ -17,8 +30,8 @@ export function Header() {
       <div className="container px-4 mx-auto">
         <nav className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <Heart className="w-8 h-8 text-emerald-600" />
-            <span className="text-2xl font-bold text-gray-900">DiyetPlus</span>
+            <Heart className={`w-8 h-8 ${heartColor}`} fill="currentColor" />
+            <span className="text-2xl font-bold text-gray-900">Renkli Diyetisyen</span>
           </div>
 
           {/* Desktop Navigation */}

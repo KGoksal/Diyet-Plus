@@ -2,8 +2,26 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Heart } from "lucide-react"
+import { useState } from "react"
 
 export function Hero() {
+  // Array of motivational/health-related quotes
+  const phrases = [
+    "Kilo verme, sağlıklı beslenme ve yaşam tarzı değişikliği için ihtiyacınız olan profesyonel araçlar ve rehberlik burada!",
+    "Her gün küçük adımlar, büyük değişimlere yol açar.",
+    "Sağlıklı yaşam, doğru beslenme ve hareketle başlar.",
+    "Kendinize iyi bakmak, en değerli yatırımdır.",
+    "Dengeli beslen, aktif yaşa, mutlu ol!",
+    "Bugün attığın adım, yarının sağlığıdır.",
+    "Sağlık, zenginlikten daha değerlidir.",
+    "Vücudun sana emanet, ona iyi davran.",
+    "Her öğün bir fırsat, sağlığını seç!",
+    "Motivasyonunu kaybetme, hedefine odaklan!"
+  ];
+  // Pick a random phrase on each render (refresh)
+  const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+  const [heartFilled, setHeartFilled] = useState(false)
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-50 via-blue-50 to-purple-50 overflow-hidden">
       {/* Background decoration */}
@@ -11,8 +29,11 @@ export function Hero() {
 
       <div className="container px-4 py-16 mx-auto text-center relative z-10">
         <div className="max-w-4xl mx-auto space-y-8">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium">
-            <Heart className="w-4 h-4" />
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium cursor-pointer select-none"
+            onClick={() => setHeartFilled(f => !f)}
+            title="Beğen / Kaldır"
+          >
+            <Heart className="w-4 h-4" fill={heartFilled ? "currentColor" : "none"} />
             Sağlıklı Yaşamın Rehberi
           </div>
 
@@ -24,8 +45,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Kilo verme, sağlıklı beslenme ve yaşam tarzı değişikliği için ihtiyacınız olan profesyonel araçlar ve
-            rehberlik burada!
+            {randomPhrase}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
