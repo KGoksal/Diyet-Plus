@@ -48,6 +48,3 @@ v0/
 - `dev` – Start the development server
 - `build` – Build for production
 - `start` – Start the production server
-
-## License
-MIT 
