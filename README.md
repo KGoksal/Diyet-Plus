@@ -23,9 +23,7 @@ Diyet-Plus
   styles/             # Global styles (Tailwind, CSS)
   ...
 ```
-<img width="1315" height="766" alt="Screenshot 2025-07-19 at 10 25 11 AM" src="https://github.com/user-attachments/assets/0ce99ede-70c8-40d0-917e-8c2dc5fd4d3f" />
-<img width="1382" height="897" alt="Screenshot 2025-07-19 at 10 25 35 AM" src="https://github.com/user-attachments/assets/11800422-b9cb-4e31-a1c6-97882850e937" />
-<img width="1382" height="897" alt="Screenshot 2025-07-19 at 10 25 35 AM" src="https://github.com/user-attachments/assets/368d91a9-7d35-4154-8f47-6e724cfa0ab2" />
+<img width="1315" height="766" alt="Screenshot 2025-07-19 at 10 25 11 AM" src="https://github.com/user-attachments/assets/0ce99ede-70c8-40d0-917e-8c2dc5fd4d3f" /><img width="1382" height="897" alt="Screenshot 2025-07-19 at 10 25 35 AM" src="https://github.com/user-attachments/assets/368d91a9-7d35-4154-8f47-6e724cfa0ab2" />
 
 
 
