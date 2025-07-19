@@ -1,6 +1,6 @@
 # Diyet Plus
 
-Diyet Plus is a modern web application built with Next.js, React, and Tailwind CSS. This project provides a foundation for building feature-rich, responsive web apps with a clean architecture and reusable components.
+Diyet Plus is a modern web application built with Next.js, React, and Tailwind CSS. This project provides a foundation for building feature-rich, responsive web apps with a clean architecture and reusable components. A clean and simple website design for dietitians, featuring basic tools such as daily calorie requirement calculators and BMI index evaluations.
 
 ## Features
 - Next.js 13+ App Directory structure
